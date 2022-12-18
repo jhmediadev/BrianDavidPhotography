@@ -6,9 +6,15 @@
   --color-body: #ffffff;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  font-family: Inter, Arial, Helvetica, sans-serif;
   color: var(--color-body);
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 h1,
@@ -19,4 +25,38 @@ h3 {
 
 p {
   color: var(--color-primary);
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
 }
