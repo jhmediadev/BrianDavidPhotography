@@ -1,3 +1,22 @@
+:root {
+  --color-primary: #171717;
+  --color-secondary: #dcdcdd;
+  --color-accent: #2584ff;
+  --color-headings: #000000;
+  --color-body: #ffffff;
+}
+
 body {
-  background: gold;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: var(--color-body);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-headings);
+}
+
+p {
+  color: var(--color-primary);
 }
