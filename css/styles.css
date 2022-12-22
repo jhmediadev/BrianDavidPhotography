@@ -1,6 +1,6 @@
 :root {
   --color-primary: #171717;
-  --color-secondary: #dcdcdd;
+  --color-secondary: #ececee;
   --color-accent: #2584ff;
   --color-headings: #000000;
   --color-body: #ffffff;
@@ -59,4 +59,26 @@ p {
   h3 {
     font-size: 1.8rem;
   }
+}
+
+span {
+  margin-bottom: 12rem;
+}
+
+/* ----------Badges-----------*/
+
+.badge {
+  border-radius: 40px;
+  padding: 3rem 2rem 3rem;
+  white-space: nowrap;
+}
+
+.bodge--primary {
+  background: var(--color-primary);
+  color: #ffffff;
+}
+
+.badge--secondary {
+  background: var(--color-secondary);
+  color: #000000;
 }
