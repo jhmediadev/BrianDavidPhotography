@@ -61,15 +61,12 @@ p {
   }
 }
 
-span {
-  margin-bottom: 12rem;
-}
-
 /* ----------Badges-----------*/
 
 .badge {
-  border-radius: 40px;
+  border-radius: 32px;
   padding: 3rem 2rem 3rem;
+  box-shadow: 1px 12px 4px -9px #667;
   white-space: nowrap;
 }
 
@@ -81,4 +78,39 @@ span {
 .badge--secondary {
   background: var(--color-secondary);
   color: #000000;
+}
+
+@media screen and (min-width: 1024px) {
+  .badge {
+    font-size: 1.6rem;
+  }
+}
+
+/* ----------Lists-----------*/
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  color: var(--color-headings);
+}
+
+.list--inline .list__item {
+  display: inline;
+  margin-right: 2rem;
+}
+
+.list--tick {
+  list-style-image: url(../images/tick_01.png);
+  padding: 3rem;
+}
+
+.list--tick .list__item {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .list--tick .list__item {
+    padding-left: 1rem;
+  }
 }
