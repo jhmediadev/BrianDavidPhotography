@@ -4,6 +4,7 @@
   --color-accent: #2584ff;
   --color-headings: #000000;
   --color-body: #ffffff;
+  --color-buttons: #e4e4e4;
 }
 
 html {
@@ -16,6 +17,13 @@ body {
   font-size: 3rem;
   line-height: 1.5;
 }
+
+*,
+*::after *::before {
+  box-sizing: border-box;
+}
+
+/* ----------Typography-----------*/
 
 h1,
 h2,
@@ -112,5 +120,49 @@ p {
 @media screen and (min-width: 1024px) {
   .list--tick .list__item {
     padding-left: 1rem;
+  }
+}
+
+/* ----------Buttons-----------*/
+
+.btn {
+  border-radius: 1.9rem;
+  border: 0;
+  box-shadow: 1px 12px 5px -10px #1d1d1d;
+  cursor: pointer;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 15rem;
+}
+
+.btn--primary {
+  background: var(--color-buttons);
+  color: #000000;
+}
+
+.btn--secondary {
+  background: var(--color-buttons);
+  color: #000000;
+}
+
+.btn--block {
+  display: inline-block;
+  text-decoration: none;
+  width: 97%;
+}
+
+.btn:hover {
+  background: #6a6a6a;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.4rem;
   }
 }
