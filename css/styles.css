@@ -175,3 +175,24 @@ p {
   padding: 1.2rem 3rem;
   text-align: center;
 }
+
+/* ----------Card-----------*/
+
+.card {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  overflow: hidden;
+}
+
+.card__header,
+.car__body,
+p {
+  padding: 2rem 3rem;
+  text-align: center;
+}
+
+.card--primary .card__header {
+  background: var(--color-secondary);
+  color: #000000;
+  font-weight: 600;
+}
