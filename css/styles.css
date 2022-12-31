@@ -102,6 +102,11 @@ p {
   color: var(--color-headings);
 }
 
+.list__item {
+  margin-right: -20rem;
+  align-content: center;
+}
+
 .list--inline .list__item {
   display: inline;
   margin-right: 2rem;
@@ -109,12 +114,14 @@ p {
 
 .list--tick {
   list-style-image: url(../images/tick_01.png);
-  padding: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 18rem;
 }
 
 .list--tick .list__item {
-  padding-left: 2rem;
   margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -137,6 +144,11 @@ p {
   text-align: center;
   text-transform: uppercase;
   width: 15rem;
+}
+
+.btn--card {
+  text-transform: none;
+  font-weight: 400;
 }
 
 .btn--primary {
@@ -163,7 +175,8 @@ p {
 
 @media screen and (min-width: 1024px) {
   .btn {
-    font-size: 1.4rem;
+    font-size: 1.9rem;
+    border: none;
   }
 }
 
@@ -182,12 +195,16 @@ p {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
+  width: 100%;
 }
 
 .card__header,
-.car__body,
+.card__body,
 p {
   padding: 2rem 3rem;
+}
+
+.card__header h2 {
   text-align: center;
 }
 
@@ -195,4 +212,10 @@ p {
   background: var(--color-secondary);
   color: #000000;
   font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 30%;
+  }
 }
