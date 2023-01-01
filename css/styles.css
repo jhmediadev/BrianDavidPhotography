@@ -120,13 +120,14 @@ p {
 
 .list--tick .list__item {
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 2.6rem;
   margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 1024px) {
   .list--tick .list__item {
     padding-left: 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -137,7 +138,7 @@ p {
   border: 0;
   box-shadow: 1px 12px 5px -10px #1d1d1d;
   cursor: pointer;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: 600;
   margin: 1rem;
   padding: 1.5rem;
@@ -175,8 +176,14 @@ p {
 
 @media screen and (min-width: 1024px) {
   .btn {
-    font-size: 1.9rem;
+    font-size: 2rem;
     border: none;
+  }
+
+  .btn--card {
+    text-transform: none;
+    font-weight: 400;
+    font-size: 2rem;
   }
 }
 
@@ -185,7 +192,7 @@ p {
 .input {
   border: 1px solid #ccc;
   border-radius: 10px;
-  padding: 1.2rem 3rem;
+  padding: 1rem 2rem;
   text-align: center;
 }
 
@@ -201,21 +208,35 @@ p {
 .card__header,
 .card__body,
 p {
-  padding: 2rem 3rem;
-}
-
-.card__header h2 {
-  text-align: center;
+  padding: 1rem 3rem;
 }
 
 .card--primary .card__header {
   background: var(--color-secondary);
   color: #000000;
-  font-weight: 600;
 }
 
 @media screen and (min-width: 1024px) {
   .card {
     width: 30%;
+  }
+}
+/* ----------Plan-----------*/
+
+.card__header h2 {
+  text-align: center;
+}
+
+/* ----------Service Outline-----------*/
+
+.card--secondary {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .card--secondary {
+    width: 100%;
+    font-size: 2rem;
   }
 }
