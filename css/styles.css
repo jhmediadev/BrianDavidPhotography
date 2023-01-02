@@ -236,7 +236,21 @@ p {
 
 @media screen and (min-width: 1024px) {
   .card--secondary {
-    width: 100%;
     font-size: 2rem;
+    width: 100%;
+  }
+}
+
+/* ----------Card Bio-----------*/
+
+.card--bio {
+  font-size: 2.1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .card--bio {
+    text-align: center;
+    width: 55%;
   }
 }
