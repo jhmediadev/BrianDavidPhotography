@@ -272,3 +272,34 @@ p {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* ----------Block-----------*/
+
+.block {
+  padding: 4rem 2rem;
+}
+
+.block__heading {
+  margin: 0;
+}
+
+.block--dark {
+  background: #000;
+}
+
+.block--dark .block__heading {
+  color: #ffffff;
+}
+
+.block--dark p {
+  color: #ffffff;
+}
+
+.block__header {
+  text-align: center;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
