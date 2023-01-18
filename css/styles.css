@@ -336,3 +336,85 @@ p {
 .collapsible--expanded .collapsible__content {
   max-height: 100vh;
 }
+
+/* ----------Nav-----------*/
+
+.logo {
+  width: 400px;
+  height: 50px;
+  padding: 0.5rem 0 0 0;
+  margin-left: -1rem;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.menu--item {
+  margin-top: 0.5rem;
+  width: 40px;
+  height: 40px;
+  flex-wrap: wrap;
+}
+
+.nav {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.nav__list {
+  width: 110%;
+  margin: 0;
+}
+
+.nav__item {
+  padding: 1.8rem 5.5rem;
+}
+
+.nav__item > a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.nav__item > a:hover {
+  border-bottom: 1px solid #000;
+  transition: 1s;
+}
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 400px;
+    height: 60px;
+    padding: 0.5rem 0 0 0;
+    margin-left: -1rem;
+  }
+
+  .nav {
+    margin: 0;
+  }
+
+  .collapsible__content {
+    display: flex;
+    max-height: 100%;
+  }
+
+  .menu--item {
+    display: none;
+  }
+
+  .nav__list {
+    width: auto;
+    display: flex;
+    font-size: 1.6rem;
+  }
+
+  .nav__list > li > a:hover {
+    border-bottom: 3px solid #000;
+    transition: 100ms;
+  }
+}
