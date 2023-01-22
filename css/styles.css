@@ -340,18 +340,26 @@ p {
 /* ----------Nav-----------*/
 
 .logo {
-  width: 400px;
+  width: 300px;
   height: 50px;
   padding: 0.5rem 0 0 0;
-  margin-left: -1rem;
+  margin-left: 2.5rem;
+  margin-right: -1rem;
 }
 
 .logo:hover {
   cursor: pointer;
 }
 
+.menu--span {
+  justify-content: right;
+  margin-left: -2rem;
+}
+
 .menu--item {
   margin-top: 0.5rem;
+  margin-left: -2rem;
+  padding-right: 2rem;
   width: 40px;
   height: 40px;
   flex-wrap: wrap;
@@ -359,20 +367,22 @@ p {
 
 .nav {
   background: #fff;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 1rem;
   border-bottom: 1px solid rgb(222, 222, 222);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -3rem;
+  padding: 3rem;
+  position: fixed;
+  width: 100%;
 }
 
 .nav__list {
-  width: 110%;
   margin: 0;
 }
 
 .nav__item {
-  padding: 1.8rem 5.5rem;
+  padding: 1.8rem 10.5rem;
 }
 
 .nav__item > a {
@@ -386,16 +396,62 @@ p {
   transition: 1s;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .logo {
-    width: 400px;
-    height: 60px;
+    width: 350px;
+    height: 50px;
     padding: 0.5rem 0 0 0;
-    margin-left: -1rem;
+    margin-left: 0.5rem;
+    margin-right: -4rem;
+  }
+
+  .menu--item {
+    margin-top: 0.5rem;
+    padding-right: 2rem;
+    width: 40px;
+    height: 40px;
+    flex-wrap: wrap;
   }
 
   .nav {
-    margin: 0;
+    background: #fff;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-etween;
+    margin: -3rem;
+    padding: 3rem;
+    position: fixed;
+    width: 100%;
+  }
+
+  .nav__item {
+    padding: 1.8rem 0.5rem;
+    margin-right: 10rem;
+  }
+
+  .nav__list {
+    margin: 10rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 380px;
+    height: 60px;
+    padding: 0.5rem -4rem 0 0;
+    margin-left: -0.5rem;
+  }
+
+  .nav {
+    border-bottom: 1px solid rgb(222, 222, 222);
+    display: flex;
+    justify-content: space-between;
+    margin: -8rem 0 0 0.5rem;
+    margin: -3rem;
+    padding: 3rem;
+    position: fixed;
+    width: 100%;
   }
 
   .collapsible__content {
@@ -408,13 +464,18 @@ p {
   }
 
   .nav__list {
+    margin: 1rem;
     width: auto;
     display: flex;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .nav__list > li > a:hover {
     border-bottom: 3px solid #000;
     transition: 100ms;
+  }
+
+  .nav__item {
+    padding: 1.8rem 1.1rem;
   }
 }
