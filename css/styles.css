@@ -488,7 +488,7 @@ p {
     padding: 1.8rem 1.1rem;
   }
 }
-/* ----------Grid-----------*/
+/* ----------Hero-----------*/
 
 .hero__image {
   width: 140px;
@@ -504,13 +504,13 @@ p {
   margin-top: 6rem;
 }
 
-.hero__image--3 {
+.grid__image {
   width: 300px;
   height: 390px;
   margin: auto;
   margin-top: 4rem;
   margin-right: 0;
-  margin-left: 4rem;
+  margin-left: 3.5rem;
   padding: 0;
   place-items: center;
 }
@@ -548,7 +548,7 @@ p {
     margin-top: 6rem;
   }
 
-  .hero__image--3 {
+  .grid__image {
     width: 280px;
     height: 400px;
     margin: auto;
@@ -581,7 +581,7 @@ p {
     margin: aut;
   }
 
-  .hero__image--3 {
+  .grid__image {
     width: 250px;
     height: 380px;
     margin: auto;
