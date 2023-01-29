@@ -23,7 +23,7 @@ body {
   box-sizing: border-box;
 }
 
-/* ----------Typography-----------*/
+/* ------------------Typography-----------------*/
 
 h1,
 h2,
@@ -69,7 +69,7 @@ p {
   }
 }
 
-/* ----------Badges-----------*/
+/* -------------------Badges-------------------*/
 
 .badge {
   border-radius: 32px;
@@ -94,7 +94,7 @@ p {
   }
 }
 
-/* ----------Lists-----------*/
+/* -------------------Lists------------------*/
 
 .list {
   list-style: none;
@@ -131,7 +131,7 @@ p {
   }
 }
 
-/* ----------Buttons-----------*/
+/* ------------------Buttons----------------*/
 
 .btn {
   border-radius: 1.9rem;
@@ -187,7 +187,7 @@ p {
   }
 }
 
-/* ----------Input-----------*/
+/* -------------------Input--------------------*/
 
 .input {
   border: 1px solid #ccc;
@@ -196,7 +196,7 @@ p {
   text-align: center;
 }
 
-/* ----------Card-----------*/
+/* ------------------Card---------------------*/
 
 .card {
   border-radius: 7px;
@@ -221,13 +221,13 @@ p {
     width: 30%;
   }
 }
-/* ----------Plan-----------*/
+/* ------------------Plan--------------------*/
 
 .card__header h2 {
   text-align: center;
 }
 
-/* ----------Service Outline-----------*/
+/* ------------Service Outline-------------*/
 
 .card--secondary {
   text-align: center;
@@ -241,7 +241,7 @@ p {
   }
 }
 
-/* ----------Card Bio-----------*/
+/* ---------------Card Bio----------------*/
 
 .card--bio {
   font-size: 2.1rem;
@@ -255,7 +255,7 @@ p {
   }
 }
 
-/* ----------Grids-----------*/
+/* -----------------Grids------------------*/
 
 .grid {
   display: grid;
@@ -282,7 +282,7 @@ p {
     }
   }
 }
-/* ----------Block-----------*/
+/* --------------------Block-----------------*/
 
 .block {
   padding: 4rem 2rem;
@@ -313,7 +313,7 @@ p {
   margin: 0 auto;
 }
 
-/* ----------Collapsible-----------*/
+/* -----------------Collapsible-----------------*/
 
 .collapsible__header {
   display: flex;
@@ -346,7 +346,7 @@ p {
   max-height: 100vh;
 }
 
-/* ----------Nav-----------*/
+/* --------------------Nav---------------------*/
 
 .logo {
   width: 300px;
@@ -488,7 +488,7 @@ p {
     padding: 1.8rem 1.1rem;
   }
 }
-/* ----------Hero-----------*/
+/* ---------------------Hero--------------------*/
 
 .hero__image {
   width: 140px;
@@ -604,5 +604,25 @@ p {
 
   .hero__content p {
     margin: 2rem -5rem 0 -5rem;
+  }
+}
+
+/* ---------------------Portfolio--------------------*/
+
+.grid__landscape {
+  height: 200px;
+  width: 300px;
+}
+
+@media screen and (min-width: 700px) {
+  .grid__landscape {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid__landscape {
+    height: 400px;
+    width: 595px;
   }
 }
