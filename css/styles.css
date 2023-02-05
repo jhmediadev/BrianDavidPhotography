@@ -1,6 +1,7 @@
 :root {
   --color-primary: #171717;
   --color-secondary: #ececee;
+  --color-text: #7c7c7c;
   --color-accent: #2584ff;
   --color-headings: #000000;
   --color-body: #ffffff;
@@ -625,4 +626,37 @@ p {
     height: 400px;
     width: 595px;
   }
+}
+
+/* ---------------------Features--------------------*/
+
+.feature__image {
+  height: 300px;
+  width: 500px;
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid rgb(201, 199, 199);
+  box-shadow: 1px 12px 4px -9px #667;
+}
+
+.feature__image2 {
+  height: 300px;
+  width: 200px;
+  padding: 2rem;
+  border: 1px solid rgb(201, 199, 199);
+  box-shadow: 1px 12px 4px -9px #667;
+}
+
+.feature__section {
+  margin: 4rem;
+}
+
+.feature__heading {
+  text-align: center;
+}
+
+.feature__text {
+  text-align: center;
+  vertical-align: middle;
+  color: var(--color-text);
 }
