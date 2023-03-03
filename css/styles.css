@@ -200,16 +200,17 @@ p {
 /* ------------------Card---------------------*/
 
 .card {
-  border-radius: 7px;
+  border-radius: 10px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
-  width: 100%;
+  width: 97%;
+  margin: 1rem auto 1rem auto;
 }
 
 .card__header,
 .card__body,
 p {
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
 }
 
 .card--primary .card__header {
@@ -219,7 +220,14 @@ p {
 
 @media screen and (min-width: 1024px) {
   .card {
-    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    overflow: hidden;
+    width: 29%;
+    margin: 1rem 2rem 1rem 4rem;
+  }
+  .card--display {
+    display: inline-block;
   }
 }
 /* ------------------Plan--------------------*/
@@ -232,13 +240,21 @@ p {
 
 .card--secondary {
   text-align: center;
-  font-size: 2.5rem;
+}
+
+.card--service {
+  text-align: center;
 }
 
 @media screen and (min-width: 1024px) {
   .card--secondary {
     font-size: 2rem;
-    width: 100%;
+    width: 98%;
+  }
+
+  .card--service {
+    text-align: center;
+    margin: 0 0 0 0;
   }
 }
 
@@ -720,5 +736,45 @@ p {
     margin-left: 0.2rem;
     margin-right: 0.2rem;
     margin-bottom: 8rem;
+  }
+}
+
+/* ---------------------Services--------------------*/
+
+.ServicesReceived__bkgd-image {
+  background-image: url(/images/Camera&equipment.PNG);
+}
+
+.card--service p {
+  font-size: 2rem;
+}
+
+.page__photo {
+  width: 300px;
+  height: 150px;
+  margin: 0 2rem 0 1.5rem;
+}
+
+@media screen and (min-width: 700px) {
+  .page__photo {
+    width: 700px;
+    height: 400px;
+    margin: 0 2rem 0 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page__photo {
+    width: 1500px;
+    height: 700px;
+    margin: 0 2rem 0 1.5rem;
+  }
+  .card--service {
+    text-align: center;
+    margin: 1rem 2rem 1rem 1.5rem;
+  }
+
+  .card--service p {
+    font-size: 2rem;
   }
 }
