@@ -202,7 +202,7 @@ p {
 .card {
   border-radius: 10px;
   box-shadow: 0 0 20px 10px #f3f3f3;
-  overflow: scroll;
+  overflow: hidden;
   width: 97%;
   margin: 1rem auto 1rem auto;
 }
@@ -267,8 +267,11 @@ p {
 
 @media screen and (min-width: 1024px) {
   .card--bio {
+    font-size: 1.9rem;
     text-align: center;
-    width: 55%;
+    width: 45%;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 2px #f3f3f3;
   }
 }
 
@@ -777,5 +780,36 @@ p {
 
   .card--service p {
     font-size: 2rem;
+  }
+}
+
+/* ---------------------Bio--------------------*/
+
+.bio__bkgd {
+  background-image: url(/images/Camera_02Capture.PNG);
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 500px;
+}
+
+.bio__pic {
+  height: 200px;
+  width: 300px;
+  display: inline;
+}
+
+@media screen and (min-width: 700px) {
+}
+
+@media screen and (min-width: 1024px) {
+  .bio__bkgd {
+    background-image: url(/images/Camera_02Captureb.png);
+    background-repeat: no-repeat;
+  }
+
+  .bio__pic {
+    height: 800px;
+    width: 1550px;
+    display: block;
   }
 }
