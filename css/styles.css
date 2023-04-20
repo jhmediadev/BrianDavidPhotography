@@ -813,3 +813,276 @@ p {
     display: block;
   }
 }
+
+/* ---------------------Services Form--------------------*/
+
+.form_text {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.form_input {
+  margin: 0;
+}
+
+.form_input input {
+  margin: 0 1rem 0 1rem;
+  width: 39rem;
+  text-align: center;
+}
+
+.form_text {
+  text-align: center;
+  margin-left: 1rem;
+  margin-bottom: 4rem;
+}
+
+.form_input input {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+div.form_input-b p {
+  color: var(--color-text);
+  margin: -1.8rem 0 -1.5rem 13rem;
+  font-size: 1.9rem;
+}
+
+.service-choice {
+  color: var(--color-primary);
+  list-style-type: none;
+  margin-left: 4rem;
+}
+
+.selection {
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+input[type="radio"] {
+  transform: scale(2);
+  vertical-align: middle;
+  margin-right: 2rem;
+}
+
+div.service-choice {
+  margin-left: 1rem;
+}
+
+.form_text-a {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.form_text-b {
+  text-align: justify;
+  margin-left: 5.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.form_text-c {
+  font-size: 1.8rem;
+  margin-left: 8rem;
+  margin-bottom: -1rem;
+}
+
+.form_text-link {
+  font-size: 1.8rem;
+  margin-left: 15rem;
+}
+
+.submit {
+  margin-left: 13rem;
+}
+
+.textarea {
+  margin: 0 1rem 0 1rem;
+  resize: none;
+  width: 39rem;
+}
+
+@media screen and (min-width: 700px) {
+  .form_text {
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+
+  .form_input {
+    margin-left: 16rem;
+    padding: 0;
+  }
+
+  .form_input input {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .form_text {
+    text-align: center;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .form_input input {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  div.form_input-b p {
+    color: var(--color-text);
+    margin: -1.8rem 0 -1.5rem 13rem;
+    font-size: 1.9rem;
+  }
+
+  .service-choice {
+    color: var(--color-primary);
+    list-style-type: none;
+    margin-left: 4rem;
+  }
+
+  .selection {
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+
+  input[type="radio"] {
+    transform: scale(2);
+    vertical-align: middle;
+  }
+
+  div.service-choice {
+    margin-left: -7rem;
+  }
+
+  ul#serv-selection li {
+    display: inline;
+  }
+
+  .form_text-a {
+    text-align: center;
+    margin-bottom: 3.5rem;
+  }
+
+  .form_text-b {
+    text-align: justify;
+    margin-left: 23.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .form_text-c {
+    font-size: 1.8rem;
+    margin-left: 25rem;
+    margin-bottom: -1rem;
+  }
+
+  .form_text-link {
+    font-size: 1.8rem;
+    margin-left: 32rem;
+  }
+
+  .submit {
+    margin-left: 30rem;
+  }
+
+  .textarea {
+    resize: none;
+    width: 76rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .serviceform_bkgd {
+    background-image: url(/images/photo-surface_background_Contactpg_c.png);
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+
+  .box {
+    height: 750px;
+    margin: 0;
+    padding-top: 1rem;
+  }
+
+  .box div {
+    margin-top: 0;
+  }
+
+  .form_input input {
+    margin-bottom: 1rem;
+    margin-right: -6rem;
+    margin-left: 10rem;
+    width: 350px;
+  }
+
+  div.form_input {
+    margin: 0 0 1rem 0;
+  }
+
+  .form_text {
+    text-align: center;
+    margin-left: 9rem;
+    margin-bottom: 4rem;
+  }
+
+  div.form_input-b {
+    color: var(--color-text);
+    margin: -1.5rem 0 -2.5rem -5rem;
+  }
+
+  .service-choice {
+    color: var(--color-primary);
+    margin-left: 11rem;
+    list-style-type: none;
+  }
+
+  div.service-choice {
+    margin-left: 3rem;
+    list-style-type: none;
+  }
+
+  ul#serv-selection li {
+    display: inline;
+  }
+
+  .selection {
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+
+  input[type="radio"] {
+    transform: scale(2);
+  }
+
+  .form_text-a {
+    text-align: justify;
+    margin-left: 7rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .form_text-b {
+    text-align: justify;
+    margin-left: 37rem;
+    margin-bottom: 2rem;
+  }
+
+  .form_text-c {
+    font-size: 1.3rem;
+    margin-left: 37.5rem;
+    margin-bottom: 0;
+  }
+
+  .form_text-link {
+    font-size: 1.3rem;
+    margin-left: 43rem;
+  }
+
+  .submit {
+    margin-left: 11rem;
+  }
+
+  .textarea {
+    resize: none;
+    margin-left: 10rem;
+  }
+}
