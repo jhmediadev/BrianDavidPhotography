@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Brian David Photography</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet"
@@ -16,67 +16,76 @@
 
 <body>
 
-    <div class="serviceform_bkgd">
-        <div class="box">
-            <div>
-                <p class="form_text-a">TO INQUIRE ABOUT BOOKING A SERVICE, PLEASE COMPLETE THE FORM BELOW.</p>
-            </div>
+    <main-header></main-header>
 
-            <div class="form_input">
-                <input type="text" placeholder="* First Name">
-                <input type="text" placeholder="* Last Name">
-            </div>
-
-            <div class="form_input">
-                <input type="text" placeholder="* Email">
-                <input type="text" placeholder="Phone Number">
-            </div>
-
-            <div class="form_input">
-                <input type="datetime-local" placeholder="Date">
-                <input type="text" placeholder="Location (Studio or Other)">
-            </div>
-
-            <div class="form_input-b">
-                <p>* Required</p>
-            </div>
-
-
-            <div>
-                <p class="form_text-b">Service Selection</p>
-            </div>
-
-
-            <div class="service-choice">
-                <div class="table">
-                    <ul id="serv-selection" class="service-choice">
-                        <li><input class="selection" type="radio" name="service" value="wedding">Wedding</li>
-                        <li><input class="selection" type="radio" name="service" value="portraits">Portraits</li>
-                        <li><input class="selection" type="radio" name="service" value="special events">Special Event
-                        <li><input class="selection" type="radio" name="service" value="other">Other</li>
-                    </ul>
+    <main>
+        <div class="serviceform_bkgd">
+            <div class="box">
+                <div>
+                    <p class="form_text-a">TO INQUIRE ABOUT BOOKING A SERVICE, PLEASE COMPLETE THE FORM BELOW.</p>
                 </div>
+
+                <div class="form_input">
+                    <input type="text" placeholder="* First Name">
+                    <input type="text" placeholder="* Last Name">
+                </div>
+
+                <div class="form_input">
+                    <input type="text" placeholder="* Email">
+                    <input type="text" placeholder="Phone Number">
+                </div>
+
+                <div class="form_input">
+                    <input type="datetime-local" placeholder="Date">
+                    <input type="text" placeholder="Location (Studio or Other)">
+                </div>
+
+                <div class="form_input-b">
+                    <p>* Required</p>
+                </div>
+
+
+                <div>
+                    <p class="form_text-b">What Service Are You Requesting?</p>
+                </div>
+
+
+                <div class="service-choice">
+                    <div class="table">
+                        <ul id="serv-selection" class="service-choice">
+                            <li><input class="selection" type="radio" name="service" value="wedding">Wedding</li>
+                            <li><input class="selection" type="radio" name="service" value="portraits">Portraits</li>
+                            <li><input class="selection" type="radio" name="service" value="special events">Special
+                                Event
+                            <li><input class="selection" type="radio" name="service" value="other">Other</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div>
+                    <textarea class="textarea" name="formcomment" id="" cols="52" rows="5"
+                        placeholder="Optional Comments"></textarea>
+                </div>
+
+                <div><button class="btn btn--primary submit">Submit</button></div>
+
+                <div>
+                    <p class="form_text-c">We will not sell your data</p>
+                    <a class="form_text-link" href=" #">Privacy Policy</a>
+                </div>
+
             </div>
-
-            <br><br>
-
-            <div>
-                <textarea class="textarea" name="formcomment" id="" cols="52" rows="5"
-                    placeholder="Optional Comments"></textarea>
-            </div>
-
-            <div><button class="btn btn--primary submit">Submit</button></div>
-
-            <div>
-                <p class="form_text-c">We will not sell your data</p>
-                <a class="form_text-link" href=" #">Privacy Policy</a>
-            </div>
-
         </div>
-    </div>
+    </main>
+    <br><br>
+
+
+    <main-footer></main-footer>
 
     <script src="/javaScript/collapse.js"></script>
-
+    <script src="/javaScript/head&foot.js"></script>
 </body>
 
 

@@ -612,7 +612,7 @@ _________________________________________________
 .menu--item {
   margin-top: 0.5rem;
   margin-left: -2rem;
-  padding-right: 2rem;
+  padding-right: 1rem;
   width: 40px;
   height: 40px;
   flex-wrap: wrap;
@@ -626,6 +626,7 @@ _________________________________________________
   justify-content: space-between;
   margin: -3rem;
   padding-top: 3rem;
+  padding-right: 2rem;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -1119,6 +1120,9 @@ _________________________________________________
   margin-bottom: 2rem;
   text-align: center;
 }
+div .form_text-a {
+  padding-top: 12rem;
+}
 
 .form_text-a {
   text-align: center;
@@ -1240,12 +1244,6 @@ div.service-choice {
     margin-bottom: 3.5rem;
   }
 
-  p.form_text-b {
-    text-align: justify;
-    margin-left: 31.5rem;
-    margin-bottom: 3.5rem;
-  }
-
   .form_text-c {
     font-size: 1.8rem;
     margin-left: 25rem;
@@ -1264,7 +1262,7 @@ div.service-choice {
   }
 
   .selection {
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-right: 1rem;
   }
 
@@ -1273,8 +1271,8 @@ div.service-choice {
     vertical-align: middle;
   }
 
-  div.service-choice {
-    margin-left: -7rem;
+  div .service-choice {
+    margin-left: -0.5rem;
   }
 
   ul#serv-selection li {
@@ -1286,10 +1284,9 @@ div.service-choice {
     margin-bottom: 3.5rem;
   }
 
-  p.form_text-b {
-    text-align: justify;
-    margin-left: 12.5rem;
-    margin-bottom: 3.5rem;
+  div p.form_text-b {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   .form_text-c {
@@ -1317,17 +1314,17 @@ div.service-choice {
   .serviceform_bkgd {
     background-image: url(/images/photo-surface_background_Contactpg_c.png);
     background-repeat: no-repeat;
-    margin: 0;
+    padding-top: 25rem;
+    padding-bottom: 12rem;
   }
 
   .box {
     height: 750px;
-    margin: 0;
-    padding-top: 1rem;
+    margin-top: -25rem;
   }
 
   .box div {
-    margin-top: 0;
+    margin-top: 1rem;
   }
 
   .form_input input {
@@ -1335,6 +1332,7 @@ div.service-choice {
     margin-right: -6rem;
     margin-left: 12rem;
     width: 350px;
+    font-size: 2rem;
   }
 
   div.form_input {
@@ -1352,10 +1350,10 @@ div.service-choice {
     margin-bottom: 3.5rem;
   }
 
-  p.form_text-b {
+  div .form_text-b {
     text-align: justify;
-    margin-left: 32rem;
-    margin-bottom: 2rem;
+    padding-left: 32.5rem;
+    margin-bottom: 3.5rem;
   }
 
   .form_text-c {
@@ -1375,8 +1373,8 @@ div.service-choice {
     list-style-type: none;
   }
 
-  div.service-choice {
-    margin-left: 3rem;
+  div .service-choice {
+    margin-left: 8rem;
     list-style-type: none;
     display: inline;
   }
