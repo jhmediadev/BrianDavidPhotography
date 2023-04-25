@@ -13,8 +13,8 @@ class Header extends HTMLElement {
         <div class="collapsible__content collapsible--expanded">
             <ul class="list nav__list ">
                 <li class="nav__item"><a href="#">HOME</a></li>
-                <li class="nav__item"><a href="#">PRICING</a></li>
                 <li class="nav__item"><a href="#">SERVICES</a></li>
+                <li class="nav__item"><a href="#">PRICING</a></li>
                 <li class="nav__item"><a href="#">PORTFOLIO</a></li>
                 <li class="nav__item"><a href="#">CONTACT</a></li>
                 <li class="nav__item"><a href="#">ABOUT</a></li>
@@ -23,7 +23,6 @@ class Header extends HTMLElement {
     </nav>
 
     `  
-    'use strict';
 
 const collapsibles = document.querySelectorAll(".collapsible");
 collapsibles.forEach((item) => 

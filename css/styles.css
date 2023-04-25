@@ -125,6 +125,11 @@ p {
   margin-bottom: 2rem;
 }
 
+.blank {
+  color: var(--color-body);
+  list-style-image: none;
+}
+
 @media screen and (min-width: 1024px) {
   .list--tick .list__item {
     padding-left: 1rem;
@@ -222,7 +227,7 @@ p {
   .card {
     border-radius: 10px;
     box-shadow: 0 0 20px 10px #f3f3f3;
-    overflow: scroll;
+    overflow: none;
     width: 29%;
     margin: 1rem 2rem 1rem 4rem;
   }
@@ -246,15 +251,23 @@ p {
   text-align: center;
 }
 
+.service__statement {
+  text-align: left;
+}
+
 @media screen and (min-width: 1024px) {
   .card--secondary {
     font-size: 2rem;
-    width: 98%;
+    width: 94%;
+    margin-bottom: 10%;
   }
 
   .card--service {
     text-align: center;
     margin: 0 0 0 0;
+  }
+  .service__statement {
+    text-align: left;
   }
 }
 
@@ -296,7 +309,7 @@ p {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1824px) {
     .grid--1x5 {
       grid-template-columns: repeat(5, 1fr);
     }
@@ -333,184 +346,7 @@ p {
   margin: 0 auto;
 }
 
-/* -----------------Collapsible-----------------*/
-
-_____________________________________________________ 
-/* .collapsible__header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.collapsible__heading {
-  margin-top: -0.6rem;
-  font-size: 3rem;
-}
-
-.chevron {
-  width: 30px;
-  height: 30px;
-  transition: 0.2s;
-}
-
-.collapsible__content {
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.2s;
-  color: var(--color-primary);
-}
-
-.collapsible--expanded .chevron {
-  transform: rotate(90deg);
-}
-
-.collapsible--expanded .collapsible__content {
-  max-height: 100vh;
-}
-
-/* ----------Nav-----------*/
-
-/* .logo {
-  width: 300px;
-  height: 50px;
-  padding: 0.5rem 0 0 0;
-  margin-left: 2.5rem;
-  margin-right: -1rem;
-}
-
-.logo:hover {
-  cursor: pointer;
-}
-
-.menu--span {
-  justify-content: right;
-  margin-left: -2rem;
-}
-
-.menu--item {
-  margin-top: 0.5rem;
-  margin-left: -2rem;
-  padding-right: 2rem;
-  width: 40px;
-  height: 40px;
-  flex-wrap: wrap;
-}
-
-.nav {
-  background: #fff;
-  border-bottom: 1px solid rgb(222, 222, 222);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: -3rem;
-  padding: 3rem;
-  position: fixed;
-  width: 100%;
-}
-
-.nav__list {
-  margin: 0;
-}
-
-.nav__item {
-  padding: 1.8rem 10.5rem;
-}
-
-.nav__item > a {
-  color: var(--color-primary);
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-.nav__item > a:hover {
-  border-bottom: 1px solid #000;
-  transition: 1s;
-}
-
-@media screen and (min-width: 768px) {
-  .logo {
-    width: 350px;
-    height: 50px;
-    padding: 0.5rem 0 0 0;
-    margin-left: 0.5rem;
-    margin-right: -4rem;
-  }
-
-  .menu--item {
-    margin-top: 0.5rem;
-    padding-right: 2rem;
-    width: 40px;
-    height: 40px;
-    flex-wrap: wrap;
-  }
-
-  .nav {
-    background: #fff;
-    border-bottom: 1px solid rgb(222, 222, 222);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-etween;
-    margin: -3rem;
-    padding: 3rem;
-    position: fixed;
-    width: 100%;
-  }
-
-  .nav__item {
-    padding: 1.8rem 0.5rem;
-    margin-right: 10rem;
-  }
-
-  .nav__list {
-    margin: 10rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .logo {
-    width: 380px;
-    height: 60px;
-    padding: 0.5rem -4rem 0 0;
-    margin-left: -0.5rem;
-  }
-
-  .nav {
-    border-bottom: 1px solid rgb(222, 222, 222);
-    display: flex;
-    justify-content: space-between;
-    margin: -8rem 0 0 0.5rem;
-    margin: -3rem;
-    padding: 3rem;
-    position: fixed;
-    width: 100%;
-  }
-
-  .collapsible__content {
-    display: flex;
-    max-height: 100%;
-  }
-
-  .menu--item {
-    display: none;
-  }
-
-  .nav__list {
-    margin: 1rem;
-    width: auto;
-    display: flex;
-    font-size: 1.4rem;
-  }
-
-  .nav__list > li > a:hover {
-    border-bottom: 3px solid #000;
-    transition: 100ms;
-  }
-
-  .nav__item {
-    padding: 1.8rem 1.1rem;
-  }
-} */ 
-
-_________________________________________________
+/* --------------------Collapsible-----------------*/
 
 .collapsible__header {
   display: flex;
@@ -870,9 +706,8 @@ _________________________________________________
   .hero__image--3 {
     width: 450px;
     height: 680px;
-    padding: 0;
+    padding-right: 0rem;
     margin: auto;
-    margin-left: 1rem;
   }
 
   p.hero__tag {
@@ -919,7 +754,7 @@ _________________________________________________
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1824px) {
   .grid__landscape {
     height: 400px;
     width: 595px;
