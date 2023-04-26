@@ -620,6 +620,48 @@ p {
   }
 }
 
+/* ---------------------Portfolio--------------------*/
+
+.portfolio__layout {
+  place-content: center;
+  margin-left: 5rem;
+}
+
+.portfolio__layout--heading {
+  margin-left: -5rem;
+}
+
+.portfolio__layout img {
+  width: 300px;
+}
+
+@media screen and (min-width: 700px) {
+  .portfolio__layout {
+    place-content: center;
+    margin-left: 8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .portfolio__layout {
+    place-content: center;
+    margin-left: -5rem;
+  }
+
+  .portfolio__layout--heading {
+    margin-left: 7rem;
+  }
+
+  .portfolio__layout img {
+    width: 350px;
+    height: 450px;
+  }
+
+  .portfolio__layout .landscape__img {
+    width: 700px;
+    margin-left: 20rem;
+  }
+}
 /* ---------------------Hero--------------------*/
 
 .hero__image {
