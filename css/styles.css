@@ -822,7 +822,7 @@ p {
 }
 
 .feature__section {
-  margin: 4rem;
+  margin: 2rem;
 }
 
 .feature__heading {
@@ -885,12 +885,16 @@ p {
   .feature__image2 {
     height: 300px;
     width: 200px;
-    padding: 2rem;
+    padding: 2.5rem;
     border: 1px solid rgb(201, 199, 199);
     box-shadow: 1px 12px 4px -9px #667;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
+    margin-left: -1rem;
+    margin-right: 1rem;
     margin-bottom: 8rem;
+  }
+
+  .feature__portraits {
+    width: 80rem;
   }
 }
 
