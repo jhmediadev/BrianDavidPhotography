@@ -208,7 +208,7 @@ p {
   border-radius: 10px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
-  width: 97%;
+  width: 92%;
   margin: 1rem auto 5rem auto;
 }
 
@@ -228,7 +228,7 @@ p {
     border-radius: 10px;
     box-shadow: 0 0 20px 10px #f3f3f3;
     overflow: hidden;
-    width: 97%;
+    width: 92%;
     margin: 0rem auto 5rem auto;
   }
 
@@ -983,8 +983,12 @@ p {
 
 /* ---------------------Bio--------------------*/
 
+.container__buffer {
+  padding-top: 8rem;
+}
+
 .bio__bkgd {
-  background-image: url(/images/Camera_02Capture.PNG);
+  background-image: url(/images/Camera_02Capturec.png);
   background-repeat: no-repeat;
   height: 400px;
   width: 500px;
@@ -992,23 +996,42 @@ p {
 
 .bio__pic {
   height: 200px;
-  width: 300px;
+  width: 200px;
   display: inline;
 }
 
 @media screen and (min-width: 700px) {
+  .container__buffer {
+    padding-top: 12rem;
+  }
+  .bio__bkgd {
+    background-image: url(/images/Camera_02Capturec.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+  }
+
+  .bio__pic {
+    height: 200px;
+    width: 300px;
+    display: inline;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .container__buffer {
+    padding-top: 12rem;
+  }
   .bio__bkgd {
-    background-image: url(/images/Camera_02Captureb.png);
+    background-image: url(/images/Camera_02Capturec.png);
     background-repeat: no-repeat;
   }
 
   .bio__pic {
-    height: 800px;
-    width: 1550px;
+    height: 900px;
+    width: 1885px;
     display: block;
+    margin-bottom: 4rem;
   }
 }
 
