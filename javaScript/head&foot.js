@@ -12,12 +12,12 @@ class Header extends HTMLElement {
 
         <div class="collapsible__content collapsible--expanded">
             <ul class="list nav__list ">
-                <li class="nav__item"><a href="#">HOME</a></li>
-                <li class="nav__item"><a href="#">SERVICES</a></li>
-                <li class="nav__item"><a href="#">PRICING</a></li>
-                <li class="nav__item"><a href="#">PORTFOLIO</a></li>
-                <li class="nav__item"><a href="#">CONTACT</a></li>
-                <li class="nav__item"><a href="#">ABOUT</a></li>
+                <li class="nav__item"><a href="../index.html">HOME</a></li>
+                <li class="nav__item"><a href="../content/services-features.html">SERVICES</a></li>
+                <li class="nav__item"><a href="../content/pricing.html">PRICING</a></li>
+                <li class="nav__item"><a href="../content/myportfolio.html">PORTFOLIO</a></li>
+                <li class="nav__item"><a href="../content/serviceform.html">CONTACT</a></li>
+                <li class="nav__item"><a href="../content/mybio.html">ABOUT</a></li>
             </ul>
         </div>
     </nav>
@@ -42,17 +42,17 @@ class Footer extends HTMLElement {
         <div class="container grid">
             <section>
                 <header>
-                    <li><a href="#">SERVICES<a></li>
-                    <li><a href="#">PORTFOLIO<a></li>
-                    <li><a href="#">CONTACT<a></li>
-                    <li><a href="#">ABOUT<a></li>
+                    <li><a href="../content/services-features.html">SERVICES<a></li>
+                    <li><a href="../content/myportfolio.html">PORTFOLIO<a></li>
+                    <li><a href="../content/serviceform.html">CONTACT<a></li>
+                    <li><a href="../content/mybio.html">ABOUT<a></li>
                 </header>
                 <div class="Connect_WithMe">
                     <p>CONNECT WITH ME</p>
                     <div class="icons">
-                        <a href=""><img src="/images/facebooklogo02bw.png" alt="" width="40"></a>
-                        <a href=""><img src="/images/instagrambw.png" alt="" width="40"></a>
-                        <a href=""><img src="/images/twitterbw_02.png" alt="" width="40"></a>
+                        <a href="https://www.facebook.com/"><img src="/images/facebooklogo02bw.png" alt="" width="40"></a>
+                        <a href="https://www.instagram.com/"><img src="/images/instagrambw.png" alt="" width="40"></a>
+                        <a href="https://twitter.com/home"><img src="/images/twitterbw_02.png" alt="" width="40"></a>
                     </div>
                 </div>
 
