@@ -654,12 +654,12 @@ p {
 
   .portfolio__layout img {
     width: 350px;
-    height: 450px;
+    height: 460px;
   }
 
   .portfolio__layout .landscape__img {
     width: 700px;
-    margin-left: 20rem;
+    margin-left: 17.5rem;
   }
 }
 /* ---------------------Hero--------------------*/
@@ -692,17 +692,20 @@ p {
 }
 
 .grid__image {
+  border: 1px solid rgb(201, 199, 199);
+  box-shadow: 1px 12px 4px -9px #667;
   width: 180px;
   height: 390px;
   margin: auto;
   margin-top: 4rem;
   margin-right: 0;
-  padding: 0;
+  padding: 1rem;
   place-items: center;
 }
 
 .hero {
   margin-top: 6rem;
+  margin-left: -1rem;
   padding: 0;
   place-content: center;
 }
@@ -742,16 +745,19 @@ p {
   }
 
   .grid__image {
+    border: 1px solid rgb(201, 199, 199);
+    box-shadow: 1px 12px 4px -9px #667;
     width: 200px;
     height: 400px;
-    margin: auto;
     margin-top: 10rem;
-    margin-left: rem;
+    margin-left: 1rem;
+    padding: 1rem;
     place-items: center;
   }
 
   .hero {
     margin-top: 6rem;
+    margin-left: -4rem;
     padding: 0;
     place-content: center;
   }
@@ -769,6 +775,12 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
+  .hero {
+    margin-top: 6rem;
+    margin-left: 0.5rem;
+    padding: 0;
+    place-content: center;
+  }
   .hero__image {
     width: 280px;
     height: 420px;
@@ -803,8 +815,10 @@ p {
     margin: auto;
     margin-top: 10rem;
     margin-right: 0;
-    margin-left: 12rem;
-    padding: 0;
+    margin-left: 10rem;
+    padding: 0.9rem;
+    border: 1px solid rgb(201, 199, 199);
+    box-shadow: 1px 12px 4px -9px #667;
     place-items: center;
   }
 
@@ -1029,7 +1043,7 @@ p {
 
   .bio__pic {
     height: 900px;
-    width: 1885px;
+    width: 1900px;
     display: block;
     margin-bottom: 4rem;
   }
