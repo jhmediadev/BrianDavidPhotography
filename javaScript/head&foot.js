@@ -4,8 +4,9 @@ class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = 
         `
+        
     <nav class="nav collapsible">
-        <a><img class="logo" href="/" src="/images/BD_logo_main.png"></a>
+        <a href="../index.html"><img class="logo" href="/" src="/images/BD_logo_main.png"></a>
         <span class="menu--span">
             <img class="menu--item" src="/images/menu_icon.png" alt="">
         </span>
@@ -31,7 +32,10 @@ collapsibles.forEach((item) =>
     })
 );     
 }
+
 }
+
+
 
 
 class Footer extends HTMLElement {
@@ -47,12 +51,15 @@ class Footer extends HTMLElement {
                     <li><a href="../content/serviceform.html">CONTACT<a></li>
                     <li><a href="../content/mybio.html">ABOUT<a></li>
                 </header>
+                <div>
+                    <button id="backtotop__button"><img src="../images/BacktoTop.png"></button>
+                </div>
                 <div class="Connect_WithMe">
                     <p>CONNECT WITH ME</p>
                     <div class="icons">
-                        <a href="https://www.facebook.com/"><img src="/images/facebooklogo02bw.png" alt="" width="40"></a>
-                        <a href="https://www.instagram.com/"><img src="/images/instagrambw.png" alt="" width="40"></a>
-                        <a href="https://twitter.com/home"><img src="/images/twitterbw_02.png" alt="" width="40"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="/images/facebooklogo02bw.png" alt="" width="40"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="/images/instagrambw.png" alt="" width="40"></a>
+                        <a href="https://twitter.com/home" target="_blank"><img src="/images/twitterbw_02.png" alt="" width="40"></a>
                     </div>
                 </div>
 
@@ -64,9 +71,17 @@ class Footer extends HTMLElement {
         </div>
     </footer>
     
-        `
-    }
+    `
+
+    $("button#backtotop__button").on("click", function () {
+      $("body, html").animate({ scrollTop: 0 }, 800);
+    });
+
 }
+
+};
+
+
 
 customElements.define("main-header", Header);
 customElements.define("main-footer", Footer);
