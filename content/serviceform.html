@@ -20,66 +20,86 @@
     <main-header></main-header>
 
     <main>
-        <div class="serviceform_bkgd">
-            <div class="box">
-                <div>
-                    <p class="form_text-a">TO INQUIRE ABOUT BOOKING A SERVICE, PLEASE COMPLETE THE FORM BELOW.</p>
-                </div>
+        <form action="https://formspree.io/f/mvoykbeg" method="POST">
 
-                <div class="form_input">
-                    <input type="text" placeholder="* First Name">
-                    <input type="text" placeholder="* Last Name">
-                </div>
-
-                <div class="form_input">
-                    <input type="text" placeholder="* Email">
-                    <input type="text" placeholder="Phone Number">
-                </div>
-
-                <div class="form_input">
-                    <input type="datetime-local" placeholder="Date">
-                    <input type="text" placeholder="Location (Studio or Other)">
-                </div>
-
-                <div class="form_input-b">
-                    <p>* Required</p>
-                </div>
-
-
-                <div>
-                    <p class="form_text-b">What Service Are You Requesting?</p>
-                </div>
-
-
-                <div class="service-choice">
-                    <div class="table">
-                        <ul id="serv-selection" class="service-choice">
-                            <li><input class="selection" type="radio" name="service" value="wedding">Wedding</li>
-                            <li><input class="selection" type="radio" name="service" value="portraits">Portraits</li>
-                            <li><input class="selection" type="radio" name="service" value="special events">Special
-                                Event
-                            <li><input class="selection" type="radio" name="service" value="other">Other</li>
-                        </ul>
+            <div class="serviceform_bkgd">
+                <div class="box">
+                    <div>
+                        <p class="form_text-a">TO INQUIRE ABOUT BOOKING A SERVICE, PLEASE COMPLETE THE FORM BELOW.</p>
                     </div>
+
+                    <div class="form_input">
+                        <input type="text" placeholder="* First Name" name="first name">
+                        <input type="text" placeholder="* Last Name" name="last name">
+                    </div>
+
+                    <div class="form_input">
+                        <input type="text" placeholder="* Email" name="email">
+                        <input type="text" placeholder="Phone Number" name="phone number">
+                    </div>
+
+                    <div class="form_input">
+                        <input type="datetime-local" placeholder="Date" name="date">
+                        <input type="text" placeholder="Location (Studio or Other)" name="location">
+                    </div>
+
+                    <div class="form_input-b">
+                        <p>* Required</p>
+                    </div>
+
+
+                    <div>
+                        <p class="form_text-b">What Service Are You Requesting?</p>
+                    </div>
+
+
+                    <div class="service-choice">
+                        <div class="table">
+                            <ul id="serv-selection" class="service-choice">
+                                <li><input class="selection" type="radio" name="service" value="Wedding">Wedding</li>
+                                <li><input class="selection" type="radio" name="service" value="Portraits">Portraits
+                                </li>
+                                <li><input class="selection" type="radio" name="service" value="Special event">Special
+                                    Event
+                                <li><input class="selection" type="radio" name="service" value="Other">Other</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    <div>
+                        <textarea class="textarea" name="message" id="" cols="52" rows="5"
+                            placeholder="Optional Comments"></textarea>
+                    </div>
+
+                    <div><button class="btn btn--primary submit" type="submit">Submit</button></div>
+
+                    <div>
+                        <p class="form_text-c">We will not sell your data</p>
+                        <a class="form_text-link" href="../content/privacypolicy.html">Privacy Policy</a>
+                    </div>
+
                 </div>
-
-                <br><br>
-
-                <div>
-                    <textarea class="textarea" name="formcomment" id="" cols="52" rows="5"
-                        placeholder="Optional Comments"></textarea>
-                </div>
-
-                <div><button class="btn btn--primary submit">Submit</button></div>
-
-                <div>
-                    <p class="form_text-c">We will not sell your data</p>
-                    <a class="form_text-link" href="../content/privacypolicy.html">Privacy Policy</a>
-                </div>
-
             </div>
-        </div>
+
+        </form>
+
+
+        <!-- <form action="https://formspree.io/f/mvoykbeg" method="POST">
+            <label>
+                Your email:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            your other form fields go here -->
+        <!-- <button type="submit">Send</button>
+        </form> -->
     </main>
+
     <br><br>
 
 
