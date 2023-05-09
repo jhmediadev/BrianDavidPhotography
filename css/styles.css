@@ -1452,8 +1452,6 @@ div.service-choice {
 
 @media screen and (min-width: 1024px) {
   #backtotop {
-    height: 35px;
-    width: 35px;
     float: right;
     margin-right: -35rem;
     border-radius: 100%;
