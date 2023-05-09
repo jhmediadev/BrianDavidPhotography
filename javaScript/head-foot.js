@@ -1,12 +1,15 @@
 'use strict';
 
+
+
+
 class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = 
         `
         
     <nav class="nav collapsible">
-        <a href="../index.html"><img class="logo" href="/" src="/images/BD_logo_main.png"></a>
+        <a href="../index.html"><img class="logo" href="/"  src="../images/BD_logo_main.png"></a>
         <span class="menu--span">
             <img class="menu--item" src="/images/menu_icon.png" alt="">
         </span>
