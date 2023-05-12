@@ -55,7 +55,7 @@ class Footer extends HTMLElement {
                     <li><a href="../content/mybio.html">ABOUT<a></li>
                 </header>
                 <div>
-                    <button id="backtotop"><img src="../images/BacktoTop.png"></button>
+                    <img id="backtotop"src="../images/BacktoTop.png">
                 </div>
                 <div class="Connect_WithMe">
                     <p>CONNECT WITH ME</p>
@@ -76,7 +76,7 @@ class Footer extends HTMLElement {
     
     `
 
-    $("button#backtotop").click( () => {
+    $("img#backtotop").click( () => {
       $("html").animate({ scrollTop: 0 }, 300);
     });
 
