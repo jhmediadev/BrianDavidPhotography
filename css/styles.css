@@ -1415,11 +1415,11 @@ div.service-choice {
 /* -----------------Back to Top Button--------------------*/
 
 #backtotop {
-  height: 35px;
-  width: 35px;
+  /* height: 35px;
+  width: 35px; */
   float: right;
   margin-right: 5rem;
-  border-radius: 100%;
+  /* border-radius: 100%; */
 }
 
 #backtotop img {
@@ -1453,7 +1453,7 @@ div.service-choice {
 @media screen and (min-width: 1024px) {
   #backtotop {
     float: right;
-    margin-right: -45rem;
+    margin-right: -35rem;
     border-radius: 100%;
   }
 
@@ -1461,8 +1461,8 @@ div.service-choice {
     height: 45px;
     width: 45px;
     justify-content: center;
-    /* margin-left: -1.3rem;
-    margin-top: -1rem; */
+    margin-left: -1.3rem;
+    margin-top: -1rem;
     cursor: pointer;
   }
 }
