@@ -940,9 +940,6 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
-  .feature-top {
-    margin-top: 10rem;
-  }
   article {
     margin-left: 40rem;
     margin-right: 40rem;
