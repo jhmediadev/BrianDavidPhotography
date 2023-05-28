@@ -1077,7 +1077,7 @@ p {
 
 .form_input input {
   margin: 0 1rem 0 1rem;
-  width: 39rem;
+  width: 35rem;
   text-align: center;
 }
 
@@ -1087,10 +1087,6 @@ p {
   margin-bottom: 4rem;
 }
 
-.form_input input {
-  margin-bottom: 2rem;
-  text-align: center;
-}
 div .form_text-a {
   padding-top: 12rem;
 }
@@ -1119,7 +1115,7 @@ p.form_text-b {
 
 div.form_input-b p {
   color: var(--color-text);
-  margin: -1.8rem 0 -1.5rem 13rem;
+  margin: -1.8rem 0 -1.5rem 12rem;
   font-size: 1.9rem;
 }
 
@@ -1138,7 +1134,7 @@ div.form_input-b p {
 input[type="radio"] {
   transform: scale(2);
   vertical-align: middle;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 div.service-choice {
@@ -1158,23 +1154,23 @@ div.service-choice {
 
 .form_text-c {
   font-size: 1.8rem;
-  margin-left: 8rem;
-  margin-bottom: -1rem;
+  margin-left: 6rem;
+  margin-bottom: -2rem;
 }
 
 .form_text-link {
   font-size: 1.8rem;
-  margin-left: 15rem;
+  margin-left: 14rem;
 }
 
 .submit {
-  margin-left: 13rem;
+  margin-left: 12rem;
 }
 
 .textarea {
   margin: 0 1rem 0 1rem;
   resize: none;
-  width: 39rem;
+  width: 35.2rem;
 }
 
 @media screen and (min-width: 700px) {
