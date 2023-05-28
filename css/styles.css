@@ -1087,13 +1087,14 @@ p {
   margin-bottom: 4rem;
 }
 
-div .form_text-a {
-  padding-top: 12rem;
+div.form_text-a {
 }
 
 .form_text-a {
   text-align: center;
   margin-bottom: 3.5rem;
+  margin-top: -0.5rem;
+  padding-top: 12rem;
 }
 
 p.form_text-b {
@@ -1115,7 +1116,7 @@ p.form_text-b {
 
 div.form_input-b p {
   color: var(--color-text);
-  margin: -1.8rem 0 -1.5rem 12rem;
+  margin: 1rem 0 -1.5rem 12rem;
   font-size: 1.9rem;
 }
 
