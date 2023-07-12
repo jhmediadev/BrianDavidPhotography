@@ -1415,7 +1415,7 @@ div.service-choice {
 
 @media screen and (max-width: 400px) {
   #backtotop {
-    margin-right: -200rem;
+    visibility: hidden;
   }
 }
 
