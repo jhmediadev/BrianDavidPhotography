@@ -1413,7 +1413,7 @@ div.service-choice {
   margin-right: 5rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   #backtotop {
     visibility: hidden;
   }
