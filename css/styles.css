@@ -1408,28 +1408,15 @@ div.service-choice {
 
 /* -----------------Back to Top Button--------------------*/
 
-/* .back__button {
-  background: none;
-  float: right;
-  margin-right: 5rem;
-  border-radius: 100%;
-} */
-
 #backtotop {
-  /* height: 35px;
-  width: 35px; */
   float: right;
   margin-right: 5rem;
-  /* border-radius: 100%; */
 }
 
-#backtotop img {
-  height: 45px;
-  width: 45px;
-  justify-content: center;
-  margin-left: -1.3rem;
-  margin-top: -1rem;
-  cursor: pointer;
+@media screen and (max-width: 400px) {
+  #backtotop {
+    margin-right: -200rem;
+  }
 }
 
 @media screen and (min-width: 700px) {
